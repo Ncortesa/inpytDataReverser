@@ -1,0 +1,84 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_variavelBooleana1",
+				"type": "bool"
+			}
+		],
+		"name": "set1Bool",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_variavelInteiro1",
+				"type": "int256"
+			}
+		],
+		"name": "set1Int",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_variavelInteiro1",
+				"type": "int256"
+			},
+			{
+				"name": "_variavelBoolena1",
+				"type": "bool"
+			}
+		],
+		"name": "set1Int1Bool",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_variavelBooleana1",
+				"type": "bool"
+			},
+			{
+				"name": "_variavelBooleana2",
+				"type": "bool"
+			}
+		],
+		"name": "set2Bool",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_variavelInteiro1",
+				"type": "int256"
+			},
+			{
+				"name": "_variavelInteiro2",
+				"type": "int256"
+			}
+		],
+		"name": "set2Int",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
