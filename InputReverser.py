@@ -3,9 +3,9 @@
 #Date: 16/07/2018
 
 #inported methods:
-import Libraries.py
+import  extraTools 
 #The first 4 bytes represent the function (4 bytes = 8 chars)
 
 Nuno="nuno"
 
-print(stringToHex(Nuno))
+print(extraTools.stringToHex(Nuno))
