@@ -40,3 +40,13 @@ def functionKeccaked(stringData):  #function that receives a function name andan
     sha3Converter=sha3.keccak_256()
     sha3Converter.update(stringData)
     return sha3Converter.hexdigest()[0:8]
+
+
+def AbijsonReader():
+    #name='data.json'
+    AbiName='AbiExample.json' ##Importing the ABI File into the engine
+    with open(AbiName) as f:
+        data = json.load(f)
+    #Data will have a list of all the arguments inside the ABIJSON
+    #Arguments are composed by dictionaries where type define if its a function, an event, a fallback or a constructor
+    return data
