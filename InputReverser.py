@@ -22,4 +22,6 @@ Inputdata=""
 
 #If present split InputData string into the variable numbers
 
+#List with mapping between type of variable and nº of bytes and nº of hexadecimals have to be defined
+
 #Using the ABI variable list reconvert the data inside the InputData String
