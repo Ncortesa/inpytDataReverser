@@ -1,13 +1,11 @@
-# to incode or decode hex to string:
+# to encode or decode hex to string:
 #Functions not robust and not prepared to receive info that is not aligned with the necessary
 #Imports:
 
 import sys
 import hashlib
 import sha3
-
-
-##########33
+##########
 
 def stringToHex(s):
     EncodedeString='0x'+s.encode("hex") #Encode to hex/ Encode is a builtIn function
@@ -33,8 +31,6 @@ def sha3KecaakHex(stringData):  #function that receives a string and will apply 
     sha3Converter=sha3.keccak_256()
     sha3Converter.update(stringData)
     return sha3Converter.hexdigest()
-
-
 
 def functionKeccaked(stringData):  #function that receives a function name andand will apply the sha3 keccak256 hashing on a 4 bytes scheme
     sha3Converter=sha3.keccak_256()
