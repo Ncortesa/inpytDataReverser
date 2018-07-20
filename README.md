@@ -14,7 +14,30 @@ The standard procedure to deploy functions in smart contracts is translated by s
 The possibility to reverse this data in a off chain script can be a crucial feature to take bydesign decision on the construction of real life assets certification software. Going into deep details in the Yellow Paper of the ethereum protocol one can relate the gas costs with the allocation of data inside a SC. This costs have no impact in standard users but can be highly punisher in high scale business that record Hundreds of tx’s per day. 
 The ability to translate the information of the input data can be then a feature to have in mind. 
 
-## 2. Documentation
+## 3. File Organization:
+
+The main library functions will be defined by:
+- 'InputReverser.py' 
+
+The complementary files will feed the main library in following logic:
+
+*JSON related functions:*
+- 'abiModules.py' 
+
+*Hex converter functions:*
+- 'extraTools.py' 
+
+
+*Some testing files are also added:*
+-AbiExample.json
+-decoderExample.sol // this sol. file can be runned against the rinkeby with no problem using remix to create Tx with input data;
+
+
+## 4. RoadMap:
+
+To be defined - This is for now only a sketch of a solution
+
+## 5. Documentation
 
 For thorough documentation on the ABI hex transformation, see:
 - [Ethereum ocumentation](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
